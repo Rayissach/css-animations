@@ -1,0 +1,20 @@
+.content {
+    padding: 5%;
+}
+.shapes-an {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: 1px solid black;
+    animation: firstShape infinite 6s linear;
+    position: relative;
+}
+
+@keyframes firstShape {
+    0% {background: white; left: 0px; top: 0px;   border-radius: 0 25px 0 0;}
+    25% {background: blue; left: 750px; top: 0px;border-radius: 0 0 0 0;}
+    50% {background: red; left: 750px; top: 680px; border-radius: 0 0 0 0;}
+    75% {background: yellow; left: 0px; top: 680px; border-radius: 0 0 0 0;}
+    100% {background: black; left: 0px; top: 0px; border-radius: 0 0 0 0;}
+
+}
