@@ -5,7 +5,15 @@ class Shapes extends React.Component {
     render() {
         return (
             <div className='content'>
-            <div className='shapes-an' />
+                <div classname='shape-box'>
+                    <div className='shapes-an' id='yin-yang'>
+                    </div>
+                </div>
+                {/* <div className='start-box'> */}
+                    <div className='start'>
+                        <h1>Start</h1>
+                    {/* </div> */}
+                </div>
             </div>
         )
     }

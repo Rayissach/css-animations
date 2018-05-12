@@ -1,6 +1,7 @@
 .shape-app {
-  background: grey;
+  background: rgb(3, 3, 3);
   height: 100%;
+  width: 100%
 }
 /* .App-logo {
   animation: App-logo-spin infinite 20s linear;
